@@ -1,0 +1,21 @@
+*{
+    color: blueviolet;
+}
+
+div p{
+    color: brown;
+}
+
+div>p{
+    color: aqua;
+
+}
+
+div~p{
+    color: chartreuse;
+}
+
+div+p{
+    color: black;
+}
+
