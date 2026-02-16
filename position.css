@@ -1,0 +1,29 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px sold red;
+    padding: 10px;
+    background-color: rgb(255, 0, 179);
+    /* position: static; */
+    /* position:relative; */
+    /* position: sticky; */
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    bottom: 30px;
+
+}
+.box1{
+    width: 10;
+    height: 20px;
+    margin: 20px;
+    border: 2px sold rgb(235, 93, 11);
+    padding: 10px;
+    background-color: rgb(233, 14, 14);
+    /* position: static; */
+    position:absolute;
+    top: 5px;
+    bottom: 5px;
+
+}
