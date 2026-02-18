@@ -1,0 +1,26 @@
+/* h1::after{
+    content:"?";
+    color: blue;
+} */
+
+/* h1:hover::after{
+    content:"?";
+    color: blueviolet;
+} */
+
+li:nth-child(even){
+    color: blue;
+    list-style:none;
+
+}
+
+p::first-letter{
+    font-size: xx-large;
+    color: red;
+    
+    
+}
+p::selection{
+    color: rgb(28, 3, 250);
+    background-color: black;
+}

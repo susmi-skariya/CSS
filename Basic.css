@@ -1,24 +1,25 @@
 *{
     color: blueviolet;
-}
+} 
 
-div p{
+ div p{
     color: brown;
-}
+} 
 
-div>p{
+ div>p{
     color: aqua;
 
-}
+} 
 
-div~p{
+
+ div~p{
     color: chartreuse;
-}
+} 
 
 div+p{
-    color: black;
+    color: rgb(233, 9, 203);
 }
 
-h1,span{
+/*h1,span{ 
     color: brown;
-}
+} */

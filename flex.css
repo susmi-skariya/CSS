@@ -1,0 +1,27 @@
+.container{
+    border: 1px solid black;
+    height: 2000px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+
+
+} 
+.box{
+    border: 1px solid black ;
+    width:100px;
+    height:100px;
+    background-color: blue;
+   
+}
+.box3{
+    flex-grow: 1;
+    flex-shrink: 0;
+    order: -1;
+}
+
+
+
+
